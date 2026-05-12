@@ -1,0 +1,19 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="560" rx="36" fill="#F4EFE6"/>
+  <rect x="80" y="110" width="180" height="110" rx="28" fill="#FFF8EF" stroke="#BC6C25" stroke-width="5"/>
+  <rect x="390" y="110" width="180" height="110" rx="28" fill="#FFF8EF" stroke="#BC6C25" stroke-width="5"/>
+  <rect x="700" y="110" width="180" height="110" rx="28" fill="#FFF8EF" stroke="#BC6C25" stroke-width="5"/>
+  <rect x="235" y="330" width="180" height="110" rx="28" fill="#F1FBF7" stroke="#4D908E" stroke-width="5"/>
+  <rect x="545" y="330" width="180" height="110" rx="28" fill="#F1FBF7" stroke="#4D908E" stroke-width="5"/>
+  <path d="M260 165H390" stroke="#BC6C25" stroke-width="8" stroke-linecap="round"/>
+  <path d="M570 165H700" stroke="#BC6C25" stroke-width="8" stroke-linecap="round"/>
+  <path d="M480 220V330" stroke="#8F4D14" stroke-width="8" stroke-linecap="round"/>
+  <path d="M325 330L325 285L480 285" stroke="#4D908E" stroke-width="8" stroke-linecap="round"/>
+  <path d="M635 330L635 285L480 285" stroke="#4D908E" stroke-width="8" stroke-linecap="round"/>
+  <text x="124" y="174" fill="#7B4B19" font-size="28" font-family="Segoe UI, Arial">Target</text>
+  <text x="445" y="174" fill="#7B4B19" font-size="28" font-family="Segoe UI, Arial">Rules</text>
+  <text x="742" y="174" fill="#7B4B19" font-size="28" font-family="Segoe UI, Arial">Output</text>
+  <text x="274" y="394" fill="#265B5B" font-size="28" font-family="Segoe UI, Arial">Steps</text>
+  <text x="573" y="394" fill="#265B5B" font-size="28" font-family="Segoe UI, Arial">Review</text>
+  <text x="92" y="494" fill="#6B5A45" font-size="26" font-family="Segoe UI, Arial">Structured problem solving and workflow decomposition</text>
+</svg>

@@ -1,0 +1,15 @@
+<svg width="960" height="560" viewBox="0 0 960 560" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <rect width="960" height="560" rx="36" fill="#FAF5F0"/>
+  <rect x="200" y="110" width="560" height="340" rx="26" fill="#FFFDF8" stroke="#D5B28A" stroke-width="5"/>
+  <path d="M480 110V450" stroke="#D5B28A" stroke-width="5"/>
+  <path d="M200 280H760" stroke="#D5B28A" stroke-width="5"/>
+  <rect x="230" y="140" width="220" height="110" rx="18" fill="#6A994E" opacity="0.16"/>
+  <rect x="510" y="140" width="220" height="110" rx="18" fill="#B56576" opacity="0.16"/>
+  <rect x="230" y="310" width="220" height="110" rx="18" fill="#577590" opacity="0.16"/>
+  <rect x="510" y="310" width="220" height="110" rx="18" fill="#BC6C25" opacity="0.16"/>
+  <text x="274" y="205" fill="#3E6A32" font-size="28" font-family="Segoe UI, Arial">TP</text>
+  <text x="554" y="205" fill="#88495B" font-size="28" font-family="Segoe UI, Arial">FP</text>
+  <text x="273" y="375" fill="#35516E" font-size="28" font-family="Segoe UI, Arial">FN</text>
+  <text x="554" y="375" fill="#7B4B19" font-size="28" font-family="Segoe UI, Arial">TN</text>
+  <text x="398" y="510" fill="#6B5A45" font-size="24" font-family="Segoe UI, Arial">Accuracy · Recall · Precision</text>
+</svg>

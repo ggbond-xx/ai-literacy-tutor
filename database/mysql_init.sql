@@ -1,0 +1,57 @@
+CREATE DATABASE IF NOT EXISTS ai_literacy_tutor DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
+USE ai_literacy_tutor;
+
+CREATE TABLE IF NOT EXISTS user (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  username VARCHAR(50) NOT NULL UNIQUE,
+  password_hash VARCHAR(255) NOT NULL,
+  role VARCHAR(20) NOT NULL DEFAULT 'student',
+  class_id INT NULL
+);
+
+CREATE TABLE IF NOT EXISTS user_knowledge_status (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  concept_id VARCHAR(64) NOT NULL,
+  status TINYINT NOT NULL DEFAULT 0,
+  update_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+  CONSTRAINT fk_status_user FOREIGN KEY (user_id) REFERENCES user(id)
+);
+
+CREATE TABLE IF NOT EXISTS comment (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  concept_id VARCHAR(64) NOT NULL,
+  content TEXT NOT NULL,
+  create_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_comment_user FOREIGN KEY (user_id) REFERENCES user(id)
+);
+
+CREATE TABLE IF NOT EXISTS question (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  student_id INT NOT NULL,
+  concept_id VARCHAR(64) NOT NULL,
+  title VARCHAR(255) NOT NULL,
+  description TEXT NOT NULL,
+  teacher_reply TEXT NULL,
+  status VARCHAR(20) NOT NULL DEFAULT '待回复',
+  CONSTRAINT fk_question_user FOREIGN KEY (student_id) REFERENCES user(id)
+);
+
+CREATE TABLE IF NOT EXISTS favorite (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  concept_id VARCHAR(64) NOT NULL,
+  create_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT uq_favorite UNIQUE (user_id, concept_id),
+  CONSTRAINT fk_favorite_user FOREIGN KEY (user_id) REFERENCES user(id)
+);
+
+CREATE TABLE IF NOT EXISTS like_record (
+  id INT PRIMARY KEY AUTO_INCREMENT,
+  user_id INT NOT NULL,
+  target_type VARCHAR(20) NOT NULL,
+  target_id INT NOT NULL,
+  create_time DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  CONSTRAINT fk_like_user FOREIGN KEY (user_id) REFERENCES user(id)
+);

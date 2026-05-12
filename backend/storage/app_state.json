@@ -1,0 +1,3041 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "username": "test_stu1",
+      "password_hash": "$pbkdf2-sha256$29000$/p9zjtF6750zZqzVuhcC4A$02suCXJZ3fbIZAyhNyJuCZdyG/SMKjKFJaUK3yx2nZI",
+      "role": "student",
+      "class_id": 101,
+      "profile": {
+        "real_name": "林语知",
+        "email": "test_stu1@example.com",
+        "school": "数字素养实验大学",
+        "major": "人工智能教育",
+        "grade": "2023级",
+        "student_no": "S20260001",
+        "class_name": "人工智能与数字素养一班",
+        "bio": "基础概念掌握较好，正在进入机器学习模块。",
+        "gender": "女",
+        "age": "19"
+      }
+    },
+    {
+      "id": 2,
+      "username": "test_stu2",
+      "password_hash": "$pbkdf2-sha256$29000$U0ppTUlp7V2rNWZMyfn/Pw$RKdFgQxtIokv4ks4m7ZBrKSvphgYKQvk.DqkJ1x94o4",
+      "role": "student",
+      "class_id": 101,
+      "profile": {
+        "real_name": "周晴岚",
+        "email": "test_stu2@example.com",
+        "school": "数字素养实验大学",
+        "major": "数字媒体技术",
+        "grade": "2023级",
+        "student_no": "S20260002",
+        "class_name": "人工智能与数字素养一班",
+        "bio": "擅长信息甄别和生成式 AI 案例分析。",
+        "gender": "男",
+        "age": "20"
+      }
+    },
+    {
+      "id": 3,
+      "username": "test_stu3",
+      "password_hash": "$pbkdf2-sha256$29000$phRiDMHYO.ccgxCiFGLM2Q$4gp1MiKT/YQ/QVnNqbYivAfVBEsv5tUFEll7TrG7Baw",
+      "role": "student",
+      "class_id": 101,
+      "profile": {
+        "real_name": "乔沐云",
+        "email": "test_stu3@example.com",
+        "school": "数字素养实验大学",
+        "major": "教育技术学",
+        "grade": "2023级",
+        "student_no": "S20260003",
+        "class_name": "人工智能与数字素养一班",
+        "bio": "关注大模型、自然语言处理和项目复盘。",
+        "gender": "女",
+        "age": "19"
+      }
+    },
+    {
+      "id": 4,
+      "username": "test_stu4",
+      "password_hash": "$pbkdf2-sha256$29000$mROi9N679z7HWOsdw5izFg$MWx0qXjeaKapJOyH0UIdqEUejQS5qAj8B/4Dx8yY/U4",
+      "role": "student",
+      "class_id": 102,
+      "profile": {
+        "real_name": "许知远",
+        "email": "test_stu4@example.com",
+        "school": "数字素养实验大学",
+        "major": "计算机科学与技术",
+        "grade": "2023级",
+        "student_no": "S20260004",
+        "class_name": "人工智能与数字素养二班",
+        "bio": "算法基础较稳，监督学习和模型评估需要继续推进。",
+        "gender": "男",
+        "age": "21"
+      }
+    },
+    {
+      "id": 5,
+      "username": "test_stu5",
+      "password_hash": "$pbkdf2-sha256$29000$CyFESGlNSYmxFgIAYGyt1Q$YahBgDL/dMieXH7oj5avk8.BFKYlpfSIQuS5LMxPZKs",
+      "role": "student",
+      "class_id": 102,
+      "profile": {
+        "real_name": "沈若溪",
+        "email": "test_stu5@example.com",
+        "school": "数字素养实验大学",
+        "major": "智能科学与技术",
+        "grade": "2023级",
+        "student_no": "S20260005",
+        "class_name": "人工智能与数字素养二班",
+        "bio": "提示词设计活跃，喜欢在论坛中补充案例。",
+        "gender": "女",
+        "age": "20"
+      }
+    },
+    {
+      "id": 6,
+      "username": "test_stu6",
+      "password_hash": "$pbkdf2-sha256$29000$yjkHYAxBSElprTUG4LxXyg$o5FA0MgRKpHtV2JLHPye56msARcDqrgiZu0z1jF3oFA",
+      "role": "student",
+      "class_id": 102,
+      "profile": {
+        "real_name": "唐以宁",
+        "email": "test_stu6@example.com",
+        "school": "数字素养实验大学",
+        "major": "数据科学与大数据技术",
+        "grade": "2023级",
+        "student_no": "S20260006",
+        "class_name": "人工智能与数字素养二班",
+        "bio": "数据素养较好，但机器学习评价指标容易混淆。",
+        "gender": "男",
+        "age": "21"
+      }
+    },
+    {
+      "id": 7,
+      "username": "test_stu7",
+      "password_hash": "$pbkdf2-sha256$29000$pzTmXCvlvNc6hzDm/H9PqQ$UDceExLxV/utCW0aFGiGKLwGqlWGrT12c/0PxkMWXWQ",
+      "role": "student",
+      "class_id": 103,
+      "profile": {
+        "real_name": "顾星野",
+        "email": "test_stu7@example.com",
+        "school": "数字素养实验大学",
+        "major": "软件工程",
+        "grade": "2022级",
+        "student_no": "S20260007",
+        "class_name": "人工智能与数字素养三班",
+        "bio": "项目实践积极，基础概念和数据清洗仍需补齐。",
+        "gender": "女",
+        "age": "22"
+      }
+    },
+    {
+      "id": 8,
+      "username": "test_stu8",
+      "password_hash": "$pbkdf2-sha256$29000$Pqd0rvX.f0.JUQoBgPC.tw$K6q7D5tendP1.Y0.9JW4ABrDlQbLHMBpZ1WPAe9x4Nc",
+      "role": "student",
+      "class_id": 103,
+      "profile": {
+        "real_name": "叶南栀",
+        "email": "test_stu8@example.com",
+        "school": "数字素养实验大学",
+        "major": "网络空间安全",
+        "grade": "2022级",
+        "student_no": "S20260008",
+        "class_name": "人工智能与数字素养三班",
+        "bio": "数字安全与事实核验掌握较好，AI 模型部分较薄弱。",
+        "gender": "男",
+        "age": "22"
+      }
+    },
+    {
+      "id": 9,
+      "username": "test_stu9",
+      "password_hash": "$pbkdf2-sha256$29000$./9/b611zrlXitEag3Cu1Q$3j7FABdT/MGwfdbJp8GifiLWpMqAdiivOw.BxafmXXw",
+      "role": "student",
+      "class_id": 103,
+      "profile": {
+        "real_name": "陆景和",
+        "email": "test_stu9@example.com",
+        "school": "数字素养实验大学",
+        "major": "信息管理与信息系统",
+        "grade": "2022级",
+        "student_no": "S20260009",
+        "class_name": "人工智能与数字素养三班",
+        "bio": "刚开始系统学习，提问集中在学习路径和基础节点。",
+        "gender": "女",
+        "age": "18"
+      }
+    },
+    {
+      "id": 10,
+      "username": "test_tea1",
+      "password_hash": "$pbkdf2-sha256$29000$oHTuvZeSEuL8n1NKqdXaWw$pDcHd.g5faL7DtJjdgjmPWFuhGuRF7AoaQtiTPZd4Vw",
+      "role": "teacher",
+      "class_id": 101,
+      "profile": {
+        "real_name": "王清禾",
+        "email": "test_tea1@example.com",
+        "school": "数字素养实验大学",
+        "major": "人工智能课程教学",
+        "grade": "教师",
+        "student_no": "T2026001",
+        "class_name": "人工智能与数字素养一班",
+        "bio": "负责基础概念、算法思维和机器学习模块。"
+      }
+    },
+    {
+      "id": 11,
+      "username": "test_tea2",
+      "password_hash": "$pbkdf2-sha256$29000$XmvNGQOgNKZ0rhVizFkLAQ$tPIIWmDymKPg7nkn/SO8kpalgwUifJ08cESxQzztXe4",
+      "role": "teacher",
+      "class_id": 102,
+      "profile": {
+        "real_name": "李明舟",
+        "email": "test_tea2@example.com",
+        "school": "数字素养实验大学",
+        "major": "生成式AI应用教学",
+        "grade": "教师",
+        "student_no": "T2026002",
+        "class_name": "人工智能与数字素养二班",
+        "bio": "负责提示词设计、生成式 AI 和项目实践模块。"
+      }
+    },
+    {
+      "id": 12,
+      "username": "test_tea3",
+      "password_hash": "$pbkdf2-sha256$29000$oLT23vtfay1ljPH.3zunlA$p7zlZ25fgheEpDyhceMagazw.335JnpXB2r/BR8i4U0",
+      "role": "teacher",
+      "class_id": 103,
+      "profile": {
+        "real_name": "孙睿安",
+        "email": "test_tea3@example.com",
+        "school": "数字素养实验大学",
+        "major": "AI伦理与治理",
+        "grade": "教师",
+        "student_no": "T2026003",
+        "class_name": "人工智能与数字素养三班",
+        "bio": "负责伦理素养、数字安全和课程治理模块。"
+      }
+    },
+    {
+      "id": 13,
+      "username": "test_adm1",
+      "password_hash": "$pbkdf2-sha256$29000$8T7HuBdCKMX4P4cQwpiTsg$bZNU/6Yu0PPwelaendqRa89VvSBOxWq.iE8lwGGj1Sg",
+      "role": "admin",
+      "class_id": null,
+      "profile": {
+        "real_name": "陈曦",
+        "email": "test_adm1@example.com",
+        "school": "数字素养实验大学",
+        "major": "平台治理",
+        "grade": "图谱运维官",
+        "student_no": "A2026001",
+        "class_name": "图谱运维组",
+        "bio": "负责账号治理、推荐参数和图谱审核发布。"
+      }
+    },
+    {
+      "id": 14,
+      "username": "test_adm2",
+      "password_hash": "$pbkdf2-sha256$29000$npOScg4BgLCWstaas3ZubQ$nRazQ9yOMyHDzQcbK2in2.BUuJBie.FuO1pIT4RXmLA",
+      "role": "admin",
+      "class_id": null,
+      "profile": {
+        "real_name": "赵南一",
+        "email": "test_adm2@example.com",
+        "school": "数字素养实验大学",
+        "major": "内容运维",
+        "grade": "图谱运维官",
+        "student_no": "A2026002",
+        "class_name": "图谱运维组",
+        "bio": "负责讨论治理、图谱内容审核和教师协同事项。"
+      }
+    },
+    {
+      "id": 15,
+      "username": "test_adm3",
+      "password_hash": "$pbkdf2-sha256$29000$6v3/XytFiBGi9H6PMeY8Zw$o7NhJCNMjZy5PUHnIhl.bRpU3s4DtlOuabXsHBh4Kds",
+      "role": "admin",
+      "class_id": null,
+      "profile": {
+        "real_name": "何钧远",
+        "email": "test_adm3@example.com",
+        "school": "数字素养实验大学",
+        "major": "系统支持",
+        "grade": "图谱运维官",
+        "student_no": "A2026003",
+        "class_name": "图谱运维组",
+        "bio": "负责系统日志、演示环境和问题排查。"
+      }
+    }
+  ],
+  "learning_statuses": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "concept_id": "catalog:algorithmic-thinking",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:1",
+      "status": 2,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 1,
+      "concept_id": "catalog:data-cleaning",
+      "status": 2,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 6,
+      "user_id": 1,
+      "concept_id": "catalog:supervised-learning",
+      "status": 1,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 7,
+      "user_id": 1,
+      "concept_id": "catalog:model-evaluation",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 8,
+      "user_id": 1,
+      "concept_id": "catalog:prompt-design",
+      "status": 1,
+      "update_time": "2026-05-08T02:41:38.172305+00:00"
+    },
+    {
+      "id": 9,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:1",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 11,
+      "user_id": 2,
+      "concept_id": "catalog:digital-safety",
+      "status": 2,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 12,
+      "user_id": 2,
+      "concept_id": "catalog:prompt-design",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 13,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 14,
+      "user_id": 2,
+      "concept_id": "catalog:ai-hallucination",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 15,
+      "user_id": 2,
+      "concept_id": "catalog:digital-copyright",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 16,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 17,
+      "user_id": 3,
+      "concept_id": "catalog:algorithmic-thinking",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 18,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 2,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 19,
+      "user_id": 3,
+      "concept_id": "catalog:neural-network",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 20,
+      "user_id": 3,
+      "concept_id": "catalog:natural-language-processing",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 21,
+      "user_id": 3,
+      "concept_id": "catalog:foundation-models",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 22,
+      "user_id": 3,
+      "concept_id": "catalog:ai-project-learning",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 23,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:3",
+      "status": 1,
+      "update_time": "2026-05-08T02:41:38.172305+00:00"
+    },
+    {
+      "id": 24,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 25,
+      "user_id": 4,
+      "concept_id": "catalog:algorithmic-thinking",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 26,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:1",
+      "status": 1,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 27,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 28,
+      "user_id": 4,
+      "concept_id": "catalog:supervised-learning",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 29,
+      "user_id": 4,
+      "concept_id": "catalog:model-evaluation",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 30,
+      "user_id": 4,
+      "concept_id": "catalog:feature-engineering",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 31,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 32,
+      "user_id": 5,
+      "concept_id": "catalog:prompt-design",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 33,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "status": 2,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 34,
+      "user_id": 5,
+      "concept_id": "catalog:human-ai-collaboration",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 35,
+      "user_id": 5,
+      "concept_id": "catalog:ai-hallucination",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 36,
+      "user_id": 5,
+      "concept_id": "catalog:digital-copyright",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 37,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 38,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:1",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 39,
+      "user_id": 6,
+      "concept_id": "catalog:open-dataset-search",
+      "status": 2,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 40,
+      "user_id": 6,
+      "concept_id": "catalog:data-cleaning",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 41,
+      "user_id": 6,
+      "concept_id": "catalog:feature-engineering",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 42,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 43,
+      "user_id": 6,
+      "concept_id": "catalog:model-evaluation",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 44,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 1,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 45,
+      "user_id": 7,
+      "concept_id": "catalog:algorithmic-thinking",
+      "status": 1,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 46,
+      "user_id": 7,
+      "concept_id": "catalog:prompt-design",
+      "status": 1,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 47,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 48,
+      "user_id": 7,
+      "concept_id": "catalog:ai-project-learning",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 49,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 50,
+      "user_id": 7,
+      "concept_id": "catalog:data-cleaning",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 51,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 2,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 52,
+      "user_id": 8,
+      "concept_id": "catalog:digital-safety",
+      "status": 2,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 53,
+      "user_id": 8,
+      "concept_id": "catalog:ai-hallucination",
+      "status": 2,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 54,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:3",
+      "status": 1,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 55,
+      "user_id": 8,
+      "concept_id": "catalog:digital-copyright",
+      "status": 1,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 56,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 57,
+      "user_id": 8,
+      "concept_id": "catalog:neural-network",
+      "status": 0,
+      "update_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 58,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "status": 1,
+      "update_time": "2026-05-02T09:41:38.172305+00:00"
+    },
+    {
+      "id": 59,
+      "user_id": 9,
+      "concept_id": "catalog:algorithmic-thinking",
+      "status": 0,
+      "update_time": "2026-05-03T08:41:38.172305+00:00"
+    },
+    {
+      "id": 60,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:1",
+      "status": 0,
+      "update_time": "2026-05-04T07:41:38.172305+00:00"
+    },
+    {
+      "id": 61,
+      "user_id": 9,
+      "concept_id": "catalog:prompt-design",
+      "status": 0,
+      "update_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 62,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "status": 0,
+      "update_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 63,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "status": 0,
+      "update_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 64,
+      "user_id": 1,
+      "concept_id": "catalog:knowledge-representation",
+      "status": 0,
+      "update_time": "2026-05-10T05:16:33.991376+00:00"
+    }
+  ],
+  "questions": [
+    {
+      "id": 1,
+      "student_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "title": "监督学习和无监督学习该怎么区分？",
+      "description": "分类、回归、聚类和模型评估经常混在一起。",
+      "teacher_reply": "建议先回到“机器学习”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 10,
+      "status": "answered",
+      "create_time": "2026-05-05T09:41:38.172305+00:00",
+      "reply_time": "2026-05-06T09:41:38.172305+00:00",
+      "is_featured": true,
+      "featured_time": "2026-05-06T08:41:38.172305+00:00",
+      "featured_by": 10,
+      "favorite_user_ids": [
+        2,
+        3,
+        4
+      ],
+      "comments": [
+        {
+          "id": 1,
+          "question_id": 1,
+          "author_id": 10,
+          "author_role": "teacher",
+          "content": "建议先回到“机器学习”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-06T09:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [
+            2,
+            3,
+            4
+          ],
+          "is_excellent": true
+        },
+        {
+          "id": 2,
+          "question_id": 1,
+          "author_id": 1,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-06T07:41:38.172305+00:00",
+          "parent_comment_id": 1,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 2,
+      "student_id": 2,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "title": "为什么生成式 AI 会编造看似真实的来源？",
+      "description": "做资料核验时不知道该优先检查哪些线索。",
+      "teacher_reply": "建议先回到“AI幻觉与事实核验”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 12,
+      "status": "answered",
+      "create_time": "2026-05-06T08:41:38.172305+00:00",
+      "reply_time": "2026-05-07T08:41:38.172305+00:00",
+      "is_featured": true,
+      "featured_time": "2026-05-07T07:41:38.172305+00:00",
+      "featured_by": 12,
+      "favorite_user_ids": [
+        5,
+        8
+      ],
+      "comments": [
+        {
+          "id": 3,
+          "question_id": 2,
+          "author_id": 12,
+          "author_role": "teacher",
+          "content": "建议先回到“AI幻觉与事实核验”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-07T08:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [
+            5,
+            8
+          ],
+          "is_excellent": true
+        },
+        {
+          "id": 4,
+          "question_id": 2,
+          "author_id": 2,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-07T06:41:38.172305+00:00",
+          "parent_comment_id": 3,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 3,
+      "student_id": 3,
+      "concept_id": "catalog:foundation-models",
+      "concept_name": "大模型基础",
+      "title": "上下文窗口和参数规模有什么区别？",
+      "description": "这两个概念都和能力有关，但解释时容易混淆。",
+      "teacher_reply": null,
+      "teacher_id": null,
+      "status": "pending",
+      "create_time": "2026-05-06T07:41:38.172305+00:00",
+      "reply_time": null,
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [],
+      "legacy_reply_migrated": false
+    },
+    {
+      "id": 4,
+      "student_id": 4,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "title": "准确率和召回率什么时候看哪个？",
+      "description": "想结合教育场景理解漏判和误判的差异。",
+      "teacher_reply": "建议先回到“模型评估”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 10,
+      "status": "answered",
+      "create_time": "2026-05-07T06:41:38.172305+00:00",
+      "reply_time": "2026-05-08T06:41:38.172305+00:00",
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [
+        {
+          "id": 5,
+          "question_id": 4,
+          "author_id": 10,
+          "author_role": "teacher",
+          "content": "建议先回到“模型评估”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-08T06:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [],
+          "is_excellent": false
+        },
+        {
+          "id": 6,
+          "question_id": 4,
+          "author_id": 4,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-08T04:41:38.172305+00:00",
+          "parent_comment_id": 5,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 5,
+      "student_id": 5,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "title": "链式提示在课程作业里怎么展示？",
+      "description": "希望把提示过程写进作业记录，但不知道粒度。",
+      "teacher_reply": "建议先回到“提示词设计”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 11,
+      "status": "answered",
+      "create_time": "2026-05-07T05:41:38.172305+00:00",
+      "reply_time": "2026-05-08T05:41:38.172305+00:00",
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [
+        {
+          "id": 7,
+          "question_id": 5,
+          "author_id": 11,
+          "author_role": "teacher",
+          "content": "建议先回到“提示词设计”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-08T05:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [],
+          "is_excellent": false
+        },
+        {
+          "id": 8,
+          "question_id": 5,
+          "author_id": 5,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-08T03:41:38.172305+00:00",
+          "parent_comment_id": 7,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 6,
+      "student_id": 6,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "title": "缺失值一定要删除吗？",
+      "description": "清洗数据时不知道删除、填充和保留怎么选。",
+      "teacher_reply": null,
+      "teacher_id": null,
+      "status": "pending",
+      "create_time": "2026-05-07T04:41:38.172305+00:00",
+      "reply_time": null,
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [],
+      "legacy_reply_migrated": false
+    },
+    {
+      "id": 7,
+      "student_id": 7,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "title": "项目复盘要写失败尝试吗？",
+      "description": "担心写失败过程会影响项目展示效果。",
+      "teacher_reply": "建议先回到“AI项目式学习”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 11,
+      "status": "answered",
+      "create_time": "2026-05-08T03:41:38.172305+00:00",
+      "reply_time": "2026-05-09T03:41:38.172305+00:00",
+      "is_featured": true,
+      "featured_time": "2026-05-09T02:41:38.172305+00:00",
+      "featured_by": 11,
+      "favorite_user_ids": [
+        1,
+        5,
+        9
+      ],
+      "comments": [
+        {
+          "id": 9,
+          "question_id": 7,
+          "author_id": 11,
+          "author_role": "teacher",
+          "content": "建议先回到“AI项目式学习”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-09T03:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [
+            1,
+            5,
+            9
+          ],
+          "is_excellent": true
+        },
+        {
+          "id": 10,
+          "question_id": 7,
+          "author_id": 7,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-09T01:41:38.172305+00:00",
+          "parent_comment_id": 9,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 8,
+      "student_id": 8,
+      "concept_id": "catalog:digital-copyright",
+      "concept_name": "数字版权与学术规范",
+      "title": "AI 生成图片能不能直接放进报告？",
+      "description": "不知道版权、标注和引用应该怎么处理。",
+      "teacher_reply": "建议先回到“数字版权与学术规范”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 12,
+      "status": "answered",
+      "create_time": "2026-05-08T02:41:38.172305+00:00",
+      "reply_time": "2026-05-09T02:41:38.172305+00:00",
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [
+        {
+          "id": 11,
+          "question_id": 8,
+          "author_id": 12,
+          "author_role": "teacher",
+          "content": "建议先回到“数字版权与学术规范”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-09T02:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [],
+          "is_excellent": false
+        },
+        {
+          "id": 12,
+          "question_id": 8,
+          "author_id": 8,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-09T00:41:38.172305+00:00",
+          "parent_comment_id": 11,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 9,
+      "student_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "title": "我应该从哪个节点开始补基础？",
+      "description": "图谱节点很多，希望知道第一周如何安排学习。",
+      "teacher_reply": null,
+      "teacher_id": null,
+      "status": "pending",
+      "create_time": "2026-05-08T01:41:38.172305+00:00",
+      "reply_time": null,
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [],
+      "legacy_reply_migrated": false
+    },
+    {
+      "id": 10,
+      "student_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "title": "特征工程和模型训练哪个更重要？",
+      "description": "自测题里总把数据准备和模型选择分不开。",
+      "teacher_reply": "建议先回到“机器学习”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 10,
+      "status": "answered",
+      "create_time": "2026-05-08T00:41:38.172305+00:00",
+      "reply_time": "2026-05-09T00:41:38.172305+00:00",
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [
+        {
+          "id": 13,
+          "question_id": 10,
+          "author_id": 10,
+          "author_role": "teacher",
+          "content": "建议先回到“机器学习”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-09T00:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [],
+          "is_excellent": false
+        },
+        {
+          "id": 14,
+          "question_id": 10,
+          "author_id": 6,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-08T22:41:38.172305+00:00",
+          "parent_comment_id": 13,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    },
+    {
+      "id": 11,
+      "student_id": 4,
+      "concept_id": "catalog:supervised-learning",
+      "concept_name": "监督学习",
+      "title": "分类任务和回归任务能不能用同一套指标？",
+      "description": "教材里的指标很多，想知道最核心区别。",
+      "teacher_reply": null,
+      "teacher_id": null,
+      "status": "pending",
+      "create_time": "2026-05-08T23:41:38.172305+00:00",
+      "reply_time": null,
+      "is_featured": false,
+      "featured_time": null,
+      "featured_by": null,
+      "favorite_user_ids": [],
+      "comments": [],
+      "legacy_reply_migrated": false
+    },
+    {
+      "id": 12,
+      "student_id": 8,
+      "concept_id": "catalog:digital-safety",
+      "concept_name": "信息甄别与数字安全",
+      "title": "如何判断一个 AI 工具是否安全？",
+      "description": "除了看隐私政策，还应该检查哪些方面？",
+      "teacher_reply": "建议先回到“信息甄别与数字安全”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+      "teacher_id": 12,
+      "status": "answered",
+      "create_time": "2026-05-08T22:41:38.172305+00:00",
+      "reply_time": "2026-05-08T22:41:38.172305+00:00",
+      "is_featured": true,
+      "featured_time": "2026-05-08T21:41:38.172305+00:00",
+      "featured_by": 12,
+      "favorite_user_ids": [
+        2,
+        7
+      ],
+      "comments": [
+        {
+          "id": 15,
+          "question_id": 12,
+          "author_id": 12,
+          "author_role": "teacher",
+          "content": "建议先回到“信息甄别与数字安全”节点的知识梳理和前置依赖，再结合自测错题定位具体薄弱点。",
+          "create_time": "2026-05-08T22:41:38.172305+00:00",
+          "parent_comment_id": null,
+          "like_user_ids": [
+            2,
+            7
+          ],
+          "is_excellent": true
+        },
+        {
+          "id": 16,
+          "question_id": 12,
+          "author_id": 8,
+          "author_role": "student",
+          "content": "收到，我会按这个思路补充笔记并重新完成自测。",
+          "create_time": "2026-05-08T20:41:38.172305+00:00",
+          "parent_comment_id": 15,
+          "like_user_ids": [],
+          "is_excellent": false
+        }
+      ],
+      "legacy_reply_migrated": true
+    }
+  ],
+  "collaboration_requests": [
+    {
+      "id": 1,
+      "teacher_id": 10,
+      "type": "图谱内容维护",
+      "title": "补充模型评估案例",
+      "description": "模型评估节点提问较多，希望补充准确率、召回率对比材料。",
+      "status": "pending",
+      "admin_reply": null,
+      "create_time": "2026-05-07T10:41:38.172305+00:00",
+      "update_time": "2026-05-07T10:41:38.172305+00:00",
+      "handled_by": null
+    },
+    {
+      "id": 2,
+      "teacher_id": 11,
+      "type": "教学资源补充",
+      "title": "补充项目复盘模板",
+      "description": "AI项目式学习节点适合增加复盘模板。",
+      "status": "processing",
+      "admin_reply": "已纳入图谱内容审核队列。",
+      "create_time": "2026-05-06T10:41:38.172305+00:00",
+      "update_time": "2026-05-08T10:41:38.172305+00:00",
+      "handled_by": 14
+    },
+    {
+      "id": 3,
+      "teacher_id": 12,
+      "type": "图谱内容维护",
+      "title": "完善数字版权材料",
+      "description": "建议增加 AI 生成内容引用说明示例。",
+      "status": "resolved",
+      "admin_reply": "已补充到数字版权与学术规范节点。",
+      "create_time": "2026-05-05T10:41:38.172305+00:00",
+      "update_time": "2026-05-08T10:41:38.172305+00:00",
+      "handled_by": 13
+    }
+  ],
+  "quiz_attempts": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "total_questions": 10,
+      "correct_answers": 7,
+      "wrong_answers": 3,
+      "accuracy": 0.7,
+      "score": 72,
+      "create_time": "2026-05-07T09:41:38.172305+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 1,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "total_questions": 10,
+      "correct_answers": 8,
+      "wrong_answers": 2,
+      "accuracy": 0.8,
+      "score": 84,
+      "create_time": "2026-05-06T08:41:38.172305+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 1,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "total_questions": 10,
+      "correct_answers": 6,
+      "wrong_answers": 4,
+      "accuracy": 0.6,
+      "score": 58,
+      "create_time": "2026-05-05T07:41:38.172305+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "total_questions": 10,
+      "correct_answers": 8,
+      "wrong_answers": 2,
+      "accuracy": 0.8,
+      "score": 80,
+      "create_time": "2026-05-04T06:41:38.172305+00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 2,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "total_questions": 10,
+      "correct_answers": 6,
+      "wrong_answers": 4,
+      "accuracy": 0.6,
+      "score": 55,
+      "create_time": "2026-05-08T05:41:38.172305+00:00"
+    },
+    {
+      "id": 6,
+      "user_id": 3,
+      "concept_id": "catalog:neural-network",
+      "concept_name": "神经网络基础",
+      "total_questions": 10,
+      "correct_answers": 7,
+      "wrong_answers": 3,
+      "accuracy": 0.7,
+      "score": 66,
+      "create_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 7,
+      "user_id": 3,
+      "concept_id": "catalog:natural-language-processing",
+      "concept_name": "自然语言处理",
+      "total_questions": 10,
+      "correct_answers": 8,
+      "wrong_answers": 2,
+      "accuracy": 0.8,
+      "score": 76,
+      "create_time": "2026-05-06T03:41:38.172305+00:00"
+    },
+    {
+      "id": 8,
+      "user_id": 3,
+      "concept_id": "catalog:foundation-models",
+      "concept_name": "大模型基础",
+      "total_questions": 10,
+      "correct_answers": 5,
+      "wrong_answers": 5,
+      "accuracy": 0.5,
+      "score": 49,
+      "create_time": "2026-05-05T02:41:38.172305+00:00"
+    },
+    {
+      "id": 9,
+      "user_id": 4,
+      "concept_id": "catalog:supervised-learning",
+      "concept_name": "监督学习",
+      "total_questions": 10,
+      "correct_answers": 7,
+      "wrong_answers": 3,
+      "accuracy": 0.7,
+      "score": 70,
+      "create_time": "2026-05-04T01:41:38.172305+00:00"
+    },
+    {
+      "id": 10,
+      "user_id": 4,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "total_questions": 10,
+      "correct_answers": 5,
+      "wrong_answers": 5,
+      "accuracy": 0.5,
+      "score": 52,
+      "create_time": "2026-05-08T00:41:38.172305+00:00"
+    },
+    {
+      "id": 11,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "total_questions": 10,
+      "correct_answers": 9,
+      "wrong_answers": 1,
+      "accuracy": 0.9,
+      "score": 91,
+      "create_time": "2026-05-06T23:41:38.172305+00:00"
+    },
+    {
+      "id": 12,
+      "user_id": 5,
+      "concept_id": "catalog:human-ai-collaboration",
+      "concept_name": "人机协同实践",
+      "total_questions": 10,
+      "correct_answers": 8,
+      "wrong_answers": 2,
+      "accuracy": 0.8,
+      "score": 78,
+      "create_time": "2026-05-05T22:41:38.172305+00:00"
+    },
+    {
+      "id": 13,
+      "user_id": 6,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "total_questions": 10,
+      "correct_answers": 8,
+      "wrong_answers": 2,
+      "accuracy": 0.8,
+      "score": 75,
+      "create_time": "2026-05-04T21:41:38.172305+00:00"
+    },
+    {
+      "id": 14,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "total_questions": 10,
+      "correct_answers": 5,
+      "wrong_answers": 5,
+      "accuracy": 0.5,
+      "score": 48,
+      "create_time": "2026-05-03T20:41:38.172305+00:00"
+    },
+    {
+      "id": 15,
+      "user_id": 7,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "total_questions": 10,
+      "correct_answers": 7,
+      "wrong_answers": 3,
+      "accuracy": 0.7,
+      "score": 69,
+      "create_time": "2026-05-07T19:41:38.172305+00:00"
+    },
+    {
+      "id": 16,
+      "user_id": 7,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "total_questions": 10,
+      "correct_answers": 6,
+      "wrong_answers": 4,
+      "accuracy": 0.6,
+      "score": 60,
+      "create_time": "2026-05-06T18:41:38.172305+00:00"
+    },
+    {
+      "id": 17,
+      "user_id": 8,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "total_questions": 10,
+      "correct_answers": 9,
+      "wrong_answers": 1,
+      "accuracy": 0.9,
+      "score": 88,
+      "create_time": "2026-05-05T17:41:38.172305+00:00"
+    },
+    {
+      "id": 18,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:3",
+      "concept_name": "AI伦理与治理",
+      "total_questions": 10,
+      "correct_answers": 7,
+      "wrong_answers": 3,
+      "accuracy": 0.7,
+      "score": 74,
+      "create_time": "2026-05-04T16:41:38.172305+00:00"
+    },
+    {
+      "id": 19,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "total_questions": 10,
+      "correct_answers": 6,
+      "wrong_answers": 4,
+      "accuracy": 0.6,
+      "score": 56,
+      "create_time": "2026-05-03T15:41:38.172305+00:00"
+    },
+    {
+      "id": 20,
+      "user_id": 9,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "total_questions": 10,
+      "correct_answers": 4,
+      "wrong_answers": 6,
+      "accuracy": 0.4,
+      "score": 42,
+      "create_time": "2026-05-07T14:41:38.172305+00:00"
+    }
+  ],
+  "node_visit_records": [
+    {
+      "id": 1,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 240,
+      "create_time": "2026-05-09T09:41:38.172305+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 480,
+      "create_time": "2026-05-08T08:41:38.172305+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 720,
+      "create_time": "2026-05-07T07:41:38.172305+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 960,
+      "create_time": "2026-05-06T06:41:38.172305+00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-05T05:41:38.172305+00:00"
+    },
+    {
+      "id": 6,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 240,
+      "create_time": "2026-05-04T04:41:38.172305+00:00"
+    },
+    {
+      "id": 7,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 480,
+      "create_time": "2026-05-03T03:41:38.172305+00:00"
+    },
+    {
+      "id": 8,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 720,
+      "create_time": "2026-05-09T02:41:38.172305+00:00"
+    },
+    {
+      "id": 9,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 960,
+      "create_time": "2026-05-08T01:41:38.172305+00:00"
+    },
+    {
+      "id": 10,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-07T00:41:38.172305+00:00"
+    },
+    {
+      "id": 11,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 240,
+      "create_time": "2026-05-05T23:41:38.172305+00:00"
+    },
+    {
+      "id": 12,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 480,
+      "create_time": "2026-05-04T22:41:38.172305+00:00"
+    },
+    {
+      "id": 13,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 720,
+      "create_time": "2026-05-03T21:41:38.172305+00:00"
+    },
+    {
+      "id": 14,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 960,
+      "create_time": "2026-05-02T20:41:38.172305+00:00"
+    },
+    {
+      "id": 15,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-08T19:41:38.172305+00:00"
+    },
+    {
+      "id": 16,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 240,
+      "create_time": "2026-05-07T18:41:38.172305+00:00"
+    },
+    {
+      "id": 17,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 480,
+      "create_time": "2026-05-06T17:41:38.172305+00:00"
+    },
+    {
+      "id": 18,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 720,
+      "create_time": "2026-05-05T16:41:38.172305+00:00"
+    },
+    {
+      "id": 19,
+      "user_id": 3,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 600,
+      "create_time": "2026-05-09T08:41:38.172305+00:00"
+    },
+    {
+      "id": 20,
+      "user_id": 4,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 840,
+      "create_time": "2026-05-08T07:41:38.172305+00:00"
+    },
+    {
+      "id": 21,
+      "user_id": 5,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 1080,
+      "create_time": "2026-05-07T06:41:38.172305+00:00"
+    },
+    {
+      "id": 22,
+      "user_id": 6,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 1320,
+      "create_time": "2026-05-06T05:41:38.172305+00:00"
+    },
+    {
+      "id": 23,
+      "user_id": 7,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 1560,
+      "create_time": "2026-05-05T04:41:38.172305+00:00"
+    },
+    {
+      "id": 24,
+      "user_id": 8,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 600,
+      "create_time": "2026-05-04T03:41:38.172305+00:00"
+    },
+    {
+      "id": 25,
+      "user_id": 9,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 840,
+      "create_time": "2026-05-03T02:41:38.172305+00:00"
+    },
+    {
+      "id": 26,
+      "user_id": 1,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 1080,
+      "create_time": "2026-05-09T01:41:38.172305+00:00"
+    },
+    {
+      "id": 27,
+      "user_id": 2,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 1320,
+      "create_time": "2026-05-08T00:41:38.172305+00:00"
+    },
+    {
+      "id": 28,
+      "user_id": 3,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 1560,
+      "create_time": "2026-05-06T23:41:38.172305+00:00"
+    },
+    {
+      "id": 29,
+      "user_id": 4,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 600,
+      "create_time": "2026-05-05T22:41:38.172305+00:00"
+    },
+    {
+      "id": 30,
+      "user_id": 5,
+      "concept_id": "catalog:algorithmic-thinking",
+      "concept_name": "算法思维",
+      "duration_seconds": 840,
+      "create_time": "2026-05-04T21:41:38.172305+00:00"
+    },
+    {
+      "id": 31,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 1800,
+      "create_time": "2026-05-09T07:41:38.172305+00:00"
+    },
+    {
+      "id": 32,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-08T06:41:38.172305+00:00"
+    },
+    {
+      "id": 33,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-07T05:41:38.172305+00:00"
+    },
+    {
+      "id": 34,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-06T04:41:38.172305+00:00"
+    },
+    {
+      "id": 35,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-05T03:41:38.172305+00:00"
+    },
+    {
+      "id": 36,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 1800,
+      "create_time": "2026-05-04T02:41:38.172305+00:00"
+    },
+    {
+      "id": 37,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-03T01:41:38.172305+00:00"
+    },
+    {
+      "id": 38,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-09T00:41:38.172305+00:00"
+    },
+    {
+      "id": 39,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-07T23:41:38.172305+00:00"
+    },
+    {
+      "id": 40,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-06T22:41:38.172305+00:00"
+    },
+    {
+      "id": 41,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 1800,
+      "create_time": "2026-05-05T21:41:38.172305+00:00"
+    },
+    {
+      "id": 42,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-04T20:41:38.172305+00:00"
+    },
+    {
+      "id": 43,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-03T19:41:38.172305+00:00"
+    },
+    {
+      "id": 44,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-02T18:41:38.172305+00:00"
+    },
+    {
+      "id": 45,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-08T17:41:38.172305+00:00"
+    },
+    {
+      "id": 46,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 1800,
+      "create_time": "2026-05-07T16:41:38.172305+00:00"
+    },
+    {
+      "id": 47,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-06T15:41:38.172305+00:00"
+    },
+    {
+      "id": 48,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-06T10:41:38.172305+00:00"
+    },
+    {
+      "id": 49,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-05T09:41:38.172305+00:00"
+    },
+    {
+      "id": 50,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-04T08:41:38.172305+00:00"
+    },
+    {
+      "id": 51,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 1800,
+      "create_time": "2026-05-03T07:41:38.172305+00:00"
+    },
+    {
+      "id": 52,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-09T06:41:38.172305+00:00"
+    },
+    {
+      "id": 53,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-08T05:41:38.172305+00:00"
+    },
+    {
+      "id": 54,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 55,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-06T03:41:38.172305+00:00"
+    },
+    {
+      "id": 56,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:2",
+      "concept_name": "机器学习",
+      "duration_seconds": 1800,
+      "create_time": "2026-05-05T02:41:38.172305+00:00"
+    },
+    {
+      "id": 57,
+      "user_id": 5,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-09T06:41:38.172305+00:00"
+    },
+    {
+      "id": 58,
+      "user_id": 6,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-08T05:41:38.172305+00:00"
+    },
+    {
+      "id": 59,
+      "user_id": 7,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-07T04:41:38.172305+00:00"
+    },
+    {
+      "id": 60,
+      "user_id": 8,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-06T03:41:38.172305+00:00"
+    },
+    {
+      "id": 61,
+      "user_id": 9,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 3000,
+      "create_time": "2026-05-05T02:41:38.172305+00:00"
+    },
+    {
+      "id": 62,
+      "user_id": 1,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-04T01:41:38.172305+00:00"
+    },
+    {
+      "id": 63,
+      "user_id": 2,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-03T00:41:38.172305+00:00"
+    },
+    {
+      "id": 64,
+      "user_id": 3,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-08T23:41:38.172305+00:00"
+    },
+    {
+      "id": 65,
+      "user_id": 4,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-07T22:41:38.172305+00:00"
+    },
+    {
+      "id": 66,
+      "user_id": 5,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 3000,
+      "create_time": "2026-05-06T21:41:38.172305+00:00"
+    },
+    {
+      "id": 67,
+      "user_id": 6,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2040,
+      "create_time": "2026-05-05T20:41:38.172305+00:00"
+    },
+    {
+      "id": 68,
+      "user_id": 7,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2280,
+      "create_time": "2026-05-04T19:41:38.172305+00:00"
+    },
+    {
+      "id": 69,
+      "user_id": 8,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2520,
+      "create_time": "2026-05-03T18:41:38.172305+00:00"
+    },
+    {
+      "id": 70,
+      "user_id": 9,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 2760,
+      "create_time": "2026-05-02T17:41:38.172305+00:00"
+    },
+    {
+      "id": 71,
+      "user_id": 1,
+      "concept_id": "catalog:model-evaluation",
+      "concept_name": "模型评估",
+      "duration_seconds": 3000,
+      "create_time": "2026-05-08T16:41:38.172305+00:00"
+    },
+    {
+      "id": 72,
+      "user_id": 6,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1020,
+      "create_time": "2026-05-09T05:41:38.172305+00:00"
+    },
+    {
+      "id": 73,
+      "user_id": 7,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1260,
+      "create_time": "2026-05-08T04:41:38.172305+00:00"
+    },
+    {
+      "id": 74,
+      "user_id": 8,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1500,
+      "create_time": "2026-05-07T03:41:38.172305+00:00"
+    },
+    {
+      "id": 75,
+      "user_id": 9,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1740,
+      "create_time": "2026-05-06T02:41:38.172305+00:00"
+    },
+    {
+      "id": 76,
+      "user_id": 1,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1980,
+      "create_time": "2026-05-05T01:41:38.172305+00:00"
+    },
+    {
+      "id": 77,
+      "user_id": 2,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1020,
+      "create_time": "2026-05-04T00:41:38.172305+00:00"
+    },
+    {
+      "id": 78,
+      "user_id": 3,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1260,
+      "create_time": "2026-05-02T23:41:38.172305+00:00"
+    },
+    {
+      "id": 79,
+      "user_id": 4,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1500,
+      "create_time": "2026-05-08T22:41:38.172305+00:00"
+    },
+    {
+      "id": 80,
+      "user_id": 5,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1740,
+      "create_time": "2026-05-07T21:41:38.172305+00:00"
+    },
+    {
+      "id": 81,
+      "user_id": 6,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1980,
+      "create_time": "2026-05-06T20:41:38.172305+00:00"
+    },
+    {
+      "id": 82,
+      "user_id": 7,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1020,
+      "create_time": "2026-05-05T19:41:38.172305+00:00"
+    },
+    {
+      "id": 83,
+      "user_id": 8,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1260,
+      "create_time": "2026-05-04T18:41:38.172305+00:00"
+    },
+    {
+      "id": 84,
+      "user_id": 9,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1500,
+      "create_time": "2026-05-03T17:41:38.172305+00:00"
+    },
+    {
+      "id": 85,
+      "user_id": 1,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1740,
+      "create_time": "2026-05-02T16:41:38.172305+00:00"
+    },
+    {
+      "id": 86,
+      "user_id": 2,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1980,
+      "create_time": "2026-05-08T15:41:38.172305+00:00"
+    },
+    {
+      "id": 87,
+      "user_id": 3,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1020,
+      "create_time": "2026-05-08T10:41:38.172305+00:00"
+    },
+    {
+      "id": 88,
+      "user_id": 4,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1260,
+      "create_time": "2026-05-07T09:41:38.172305+00:00"
+    },
+    {
+      "id": 89,
+      "user_id": 5,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1500,
+      "create_time": "2026-05-06T08:41:38.172305+00:00"
+    },
+    {
+      "id": 90,
+      "user_id": 6,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1740,
+      "create_time": "2026-05-05T07:41:38.172305+00:00"
+    },
+    {
+      "id": 91,
+      "user_id": 7,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1980,
+      "create_time": "2026-05-04T06:41:38.172305+00:00"
+    },
+    {
+      "id": 92,
+      "user_id": 8,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1020,
+      "create_time": "2026-05-03T05:41:38.172305+00:00"
+    },
+    {
+      "id": 93,
+      "user_id": 9,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 1260,
+      "create_time": "2026-05-09T04:41:38.172305+00:00"
+    },
+    {
+      "id": 94,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-09T04:41:38.172305+00:00"
+    },
+    {
+      "id": 95,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-08T03:41:38.172305+00:00"
+    },
+    {
+      "id": 96,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-07T02:41:38.172305+00:00"
+    },
+    {
+      "id": 97,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-06T01:41:38.172305+00:00"
+    },
+    {
+      "id": 98,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-05T00:41:38.172305+00:00"
+    },
+    {
+      "id": 99,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-03T23:41:38.172305+00:00"
+    },
+    {
+      "id": 100,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-02T22:41:38.172305+00:00"
+    },
+    {
+      "id": 101,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-08T21:41:38.172305+00:00"
+    },
+    {
+      "id": 102,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-07T20:41:38.172305+00:00"
+    },
+    {
+      "id": 103,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-06T19:41:38.172305+00:00"
+    },
+    {
+      "id": 104,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-05T18:41:38.172305+00:00"
+    },
+    {
+      "id": 105,
+      "user_id": 9,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-04T17:41:38.172305+00:00"
+    },
+    {
+      "id": 106,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-03T16:41:38.172305+00:00"
+    },
+    {
+      "id": 107,
+      "user_id": 2,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-02T15:41:38.172305+00:00"
+    },
+    {
+      "id": 108,
+      "user_id": 3,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-09T10:41:38.172305+00:00"
+    },
+    {
+      "id": 109,
+      "user_id": 4,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-08T09:41:38.172305+00:00"
+    },
+    {
+      "id": 110,
+      "user_id": 5,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-07T08:41:38.172305+00:00"
+    },
+    {
+      "id": 111,
+      "user_id": 6,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-06T07:41:38.172305+00:00"
+    },
+    {
+      "id": 112,
+      "user_id": 7,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-05T06:41:38.172305+00:00"
+    },
+    {
+      "id": 113,
+      "user_id": 8,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-04T05:41:38.172305+00:00"
+    },
+    {
+      "id": 114,
+      "user_id": 8,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-09T03:41:38.172305+00:00"
+    },
+    {
+      "id": 115,
+      "user_id": 9,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-08T02:41:38.172305+00:00"
+    },
+    {
+      "id": 116,
+      "user_id": 1,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-07T01:41:38.172305+00:00"
+    },
+    {
+      "id": 117,
+      "user_id": 2,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-06T00:41:38.172305+00:00"
+    },
+    {
+      "id": 118,
+      "user_id": 3,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-04T23:41:38.172305+00:00"
+    },
+    {
+      "id": 119,
+      "user_id": 4,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-03T22:41:38.172305+00:00"
+    },
+    {
+      "id": 120,
+      "user_id": 5,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-02T21:41:38.172305+00:00"
+    },
+    {
+      "id": 121,
+      "user_id": 6,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-08T20:41:38.172305+00:00"
+    },
+    {
+      "id": 122,
+      "user_id": 7,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-07T19:41:38.172305+00:00"
+    },
+    {
+      "id": 123,
+      "user_id": 8,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-06T18:41:38.172305+00:00"
+    },
+    {
+      "id": 124,
+      "user_id": 9,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-05T17:41:38.172305+00:00"
+    },
+    {
+      "id": 125,
+      "user_id": 1,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1440,
+      "create_time": "2026-05-04T16:41:38.172305+00:00"
+    },
+    {
+      "id": 126,
+      "user_id": 2,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-03T15:41:38.172305+00:00"
+    },
+    {
+      "id": 127,
+      "user_id": 3,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-03T10:41:38.172305+00:00"
+    },
+    {
+      "id": 128,
+      "user_id": 4,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-09T09:41:38.172305+00:00"
+    },
+    {
+      "id": 129,
+      "user_id": 5,
+      "concept_id": "catalog:ai-hallucination",
+      "concept_name": "AI幻觉与事实核验",
+      "duration_seconds": 1200,
+      "create_time": "2026-05-08T08:41:38.172305+00:00"
+    },
+    {
+      "id": 130,
+      "user_id": 9,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-09T02:41:38.172305+00:00"
+    },
+    {
+      "id": 131,
+      "user_id": 1,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-08T01:41:38.172305+00:00"
+    },
+    {
+      "id": 132,
+      "user_id": 2,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-07T00:41:38.172305+00:00"
+    },
+    {
+      "id": 133,
+      "user_id": 3,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-05T23:41:38.172305+00:00"
+    },
+    {
+      "id": 134,
+      "user_id": 4,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2640,
+      "create_time": "2026-05-04T22:41:38.172305+00:00"
+    },
+    {
+      "id": 135,
+      "user_id": 5,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-03T21:41:38.172305+00:00"
+    },
+    {
+      "id": 136,
+      "user_id": 6,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-02T20:41:38.172305+00:00"
+    },
+    {
+      "id": 137,
+      "user_id": 7,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-08T19:41:38.172305+00:00"
+    },
+    {
+      "id": 138,
+      "user_id": 8,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-07T18:41:38.172305+00:00"
+    },
+    {
+      "id": 139,
+      "user_id": 9,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2640,
+      "create_time": "2026-05-06T17:41:38.172305+00:00"
+    },
+    {
+      "id": 140,
+      "user_id": 1,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 1680,
+      "create_time": "2026-05-05T16:41:38.172305+00:00"
+    },
+    {
+      "id": 141,
+      "user_id": 2,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 1920,
+      "create_time": "2026-05-04T15:41:38.172305+00:00"
+    },
+    {
+      "id": 142,
+      "user_id": 3,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2160,
+      "create_time": "2026-05-04T10:41:38.172305+00:00"
+    },
+    {
+      "id": 143,
+      "user_id": 4,
+      "concept_id": "catalog:ai-project-learning",
+      "concept_name": "AI项目式学习",
+      "duration_seconds": 2400,
+      "create_time": "2026-05-03T09:41:38.172305+00:00"
+    },
+    {
+      "id": 144,
+      "user_id": 1,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1380,
+      "create_time": "2026-05-09T01:41:38.172305+00:00"
+    },
+    {
+      "id": 145,
+      "user_id": 2,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1620,
+      "create_time": "2026-05-08T00:41:38.172305+00:00"
+    },
+    {
+      "id": 146,
+      "user_id": 3,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1860,
+      "create_time": "2026-05-06T23:41:38.172305+00:00"
+    },
+    {
+      "id": 147,
+      "user_id": 4,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 2100,
+      "create_time": "2026-05-05T22:41:38.172305+00:00"
+    },
+    {
+      "id": 148,
+      "user_id": 5,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 2340,
+      "create_time": "2026-05-04T21:41:38.172305+00:00"
+    },
+    {
+      "id": 149,
+      "user_id": 6,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1380,
+      "create_time": "2026-05-03T20:41:38.172305+00:00"
+    },
+    {
+      "id": 150,
+      "user_id": 7,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1620,
+      "create_time": "2026-05-02T19:41:38.172305+00:00"
+    },
+    {
+      "id": 151,
+      "user_id": 8,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1860,
+      "create_time": "2026-05-08T18:41:38.172305+00:00"
+    },
+    {
+      "id": 152,
+      "user_id": 9,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 2100,
+      "create_time": "2026-05-07T17:41:38.172305+00:00"
+    },
+    {
+      "id": 153,
+      "user_id": 1,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 2340,
+      "create_time": "2026-05-06T16:41:38.172305+00:00"
+    },
+    {
+      "id": 154,
+      "user_id": 2,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1380,
+      "create_time": "2026-05-05T15:41:38.172305+00:00"
+    },
+    {
+      "id": 155,
+      "user_id": 3,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1620,
+      "create_time": "2026-05-05T10:41:38.172305+00:00"
+    },
+    {
+      "id": 156,
+      "user_id": 4,
+      "concept_id": "catalog:data-cleaning",
+      "concept_name": "数据采集与清洗",
+      "duration_seconds": 1860,
+      "create_time": "2026-05-04T09:41:38.172305+00:00"
+    },
+    {
+      "id": 157,
+      "user_id": 1,
+      "concept_id": "catalog:unsupervised-learning",
+      "concept_name": "无监督学习",
+      "duration_seconds": 12,
+      "create_time": "2026-05-09T16:21:18.148124+00:00"
+    },
+    {
+      "id": 158,
+      "user_id": 1,
+      "concept_id": "catalog:foundation-models",
+      "concept_name": "大模型基础",
+      "duration_seconds": 5,
+      "create_time": "2026-05-09T16:21:46.470098+00:00"
+    },
+    {
+      "id": 159,
+      "user_id": 1,
+      "concept_id": "catalog:computer-vision",
+      "concept_name": "计算机视觉",
+      "duration_seconds": 4,
+      "create_time": "2026-05-09T16:23:40.095930+00:00"
+    },
+    {
+      "id": 160,
+      "user_id": 1,
+      "concept_id": "catalog:knowledge-representation",
+      "concept_name": "知识表示与推理",
+      "duration_seconds": 15,
+      "create_time": "2026-05-10T05:16:42.193881+00:00"
+    },
+    {
+      "id": 161,
+      "user_id": 1,
+      "concept_id": "catalog:multimodal-ai",
+      "concept_name": "多模态AI",
+      "duration_seconds": 5,
+      "create_time": "2026-05-10T05:18:53.505050+00:00"
+    },
+    {
+      "id": 162,
+      "user_id": 1,
+      "concept_id": "catalog:multimodal-ai",
+      "concept_name": "多模态AI",
+      "duration_seconds": 3,
+      "create_time": "2026-05-10T05:19:12.088046+00:00"
+    },
+    {
+      "id": 163,
+      "user_id": 1,
+      "concept_id": "catalog:digital-copyright",
+      "concept_name": "数字版权与学术规范",
+      "duration_seconds": 17,
+      "create_time": "2026-05-10T05:20:30.727354+00:00"
+    },
+    {
+      "id": 164,
+      "user_id": 1,
+      "concept_id": "catalog:prompt-design",
+      "concept_name": "提示词设计",
+      "duration_seconds": 6,
+      "create_time": "2026-05-10T05:21:11.840681+00:00"
+    },
+    {
+      "id": 165,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 3,
+      "create_time": "2026-05-10T05:21:15.072718+00:00"
+    },
+    {
+      "id": 166,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:4",
+      "concept_name": "生成式AI应用",
+      "duration_seconds": 9,
+      "create_time": "2026-05-10T05:21:29.300123+00:00"
+    },
+    {
+      "id": 167,
+      "user_id": 1,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:3",
+      "concept_name": "AI伦理与治理",
+      "duration_seconds": 4,
+      "create_time": "2026-05-10T05:21:34.028479+00:00"
+    },
+    {
+      "id": 168,
+      "user_id": 10,
+      "concept_id": "4:decc6b31-0034-4e59-84f5-b8cac5c81dcc:0",
+      "concept_name": "人工智能基础",
+      "duration_seconds": 21,
+      "create_time": "2026-05-10T08:05:59.999456+00:00"
+    }
+  ],
+  "notifications": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": false,
+      "create_time": "2026-05-09T09:41:38.172305+00:00"
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": true,
+      "create_time": "2026-05-09T08:41:38.172305+00:00"
+    },
+    {
+      "id": 3,
+      "user_id": 3,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": false,
+      "create_time": "2026-05-09T07:41:38.172305+00:00"
+    },
+    {
+      "id": 4,
+      "user_id": 4,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": true,
+      "create_time": "2026-05-09T06:41:38.172305+00:00"
+    },
+    {
+      "id": 5,
+      "user_id": 5,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": false,
+      "create_time": "2026-05-09T05:41:38.172305+00:00"
+    },
+    {
+      "id": 6,
+      "user_id": 6,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": true,
+      "create_time": "2026-05-09T04:41:38.172305+00:00"
+    },
+    {
+      "id": 7,
+      "user_id": 7,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": false,
+      "create_time": "2026-05-09T03:41:38.172305+00:00"
+    },
+    {
+      "id": 8,
+      "user_id": 8,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": true,
+      "create_time": "2026-05-09T02:41:38.172305+00:00"
+    },
+    {
+      "id": 9,
+      "user_id": 9,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": false,
+      "create_time": "2026-05-09T01:41:38.172305+00:00"
+    },
+    {
+      "id": 10,
+      "user_id": 10,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": true,
+      "create_time": "2026-05-09T00:41:38.172305+00:00"
+    },
+    {
+      "id": 11,
+      "user_id": 11,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": false,
+      "create_time": "2026-05-08T23:41:38.172305+00:00"
+    },
+    {
+      "id": 12,
+      "user_id": 12,
+      "category": "demo",
+      "title": "演示数据已更新",
+      "content": "系统已补充班级统计、节点访问、问答和自测数据。",
+      "link": "/graph",
+      "is_read": true,
+      "create_time": "2026-05-08T22:41:38.172305+00:00"
+    }
+  ],
+  "quick_reply_templates": [
+    {
+      "id": 1,
+      "teacher_id": 10,
+      "title": "回看前置节点",
+      "content": "建议先回看当前节点的前置依赖，再结合自测错题继续提问。",
+      "create_time": "2026-05-06T10:41:38.172305+00:00"
+    },
+    {
+      "id": 2,
+      "teacher_id": 10,
+      "title": "按任务类型梳理",
+      "content": "请把任务类型、输入数据、输出结果和评价指标整理成表格。",
+      "create_time": "2026-05-07T10:41:38.172305+00:00"
+    },
+    {
+      "id": 3,
+      "teacher_id": 11,
+      "title": "记录提示词迭代",
+      "content": "请记录每轮提示词修改点，并说明输出为什么变好或变差。",
+      "create_time": "2026-05-07T10:41:38.172305+00:00"
+    },
+    {
+      "id": 4,
+      "teacher_id": 12,
+      "title": "补充责任说明",
+      "content": "如果使用 AI，请写清 AI 参与环节、人工核验方式和最终责任人。",
+      "create_time": "2026-05-07T10:41:38.172305+00:00"
+    }
+  ],
+  "graph_change_requests": [
+    {
+      "id": 1,
+      "teacher_id": 10,
+      "action": "update_node",
+      "summary": "补充模型评估节点的课堂案例和自测题",
+      "target_concept_name": "模型评估",
+      "node": {
+        "name": "模型评估",
+        "description": "通过准确率、召回率、泛化能力等指标评价模型效果。",
+        "category": "算法模型",
+        "difficulty": 3,
+        "estimated_minutes": 35,
+        "key_points": [
+          "区分准确率与召回率",
+          "理解过拟合与欠拟合"
+        ],
+        "text_material": "结合教育场景比较漏判和误判成本。",
+        "image_url": null,
+        "video_title": "模型评估入门",
+        "video_url": "",
+        "resource_links": [],
+        "study_tips": [
+          "先看混淆矩阵，再理解指标。"
+        ],
+        "common_mistakes": [
+          "只看准确率，不看任务风险。"
+        ],
+        "practice_task": "比较两个模型在不同指标下的取舍。",
+        "quiz": []
+      },
+      "prerequisite_names": [
+        "监督学习"
+      ],
+      "next_names": [
+        "AI产品体验评估"
+      ],
+      "related_names": [
+        "机器学习"
+      ],
+      "status": "pending",
+      "create_time": "2026-05-08T10:41:38.172305+00:00",
+      "review_time": null,
+      "reviewed_by": null,
+      "review_note": null
+    }
+  ],
+  "graph_overrides": {
+    "concepts": [],
+    "relations": [],
+    "relation_replacements": []
+  },
+  "operation_logs": [
+    {
+      "id": 1,
+      "actor_id": 13,
+      "actor_name": "陈曦",
+      "actor_role": "admin",
+      "action": "seed_demo_data",
+      "target_type": "system",
+      "target_id": "demo",
+      "description": "重建 9 名学生、3 名教师、3 名图谱运维官及班级统计演示数据。",
+      "create_time": "2026-05-09T09:41:38.172305+00:00"
+    },
+    {
+      "id": 2,
+      "actor_id": 14,
+      "actor_name": "赵南一",
+      "actor_role": "admin",
+      "action": "review_graph_change",
+      "target_type": "graph_change_request",
+      "target_id": "1",
+      "description": "收到教师提交的模型评估节点优化申请，等待审核发布。",
+      "create_time": "2026-05-09T08:41:38.172305+00:00"
+    }
+  ],
+  "recommendation_settings": {
+    "recommendation_limit": 6,
+    "weak_point_limit": 4,
+    "path_limit": 7,
+    "mastery_weight": 1.0,
+    "in_progress_weight": 0.65
+  },
+  "next_user_id": 16,
+  "next_status_id": 65,
+  "next_question_id": 13,
+  "next_comment_id": 17,
+  "next_collaboration_request_id": 4,
+  "next_quiz_attempt_id": 21,
+  "next_node_visit_id": 169,
+  "next_notification_id": 13,
+  "next_template_id": 5,
+  "next_graph_change_request_id": 2,
+  "next_operation_log_id": 3
+}
